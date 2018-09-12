@@ -1,6 +1,6 @@
 python run.py \
-    --mnist_path "/st1/jhlee/datasets/mnist" \
+    --mnist_path "./mnist" \
     --savedir "./results" \
     --alpha 0.1 \
     --gamma 0.01 \
-    --gpu_num 4
+    --gpu_num 0
